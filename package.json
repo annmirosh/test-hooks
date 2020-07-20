@@ -4,6 +4,7 @@
   "description": "This an example JS project that is used in the Advanced Git course on Pluralsight",
   "main": "index.js",
   "scripts": {
+    "preinstall": "git config --local core.hooksPath .githooks",
     "test": "mocha",
     "lint": "eslint index.js lib/**.js"
   },

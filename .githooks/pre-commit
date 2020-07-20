@@ -1,3 +1,4 @@
+export PATH=/usr/local/bin:$PATH
 set -e
 npm run lint
 npm test
