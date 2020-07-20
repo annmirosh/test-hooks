@@ -3,6 +3,7 @@ const findPrimes = require('./lib/findPrimes');
 
 // Check and validate command line arguments
 const args = process.argv.slice(2);
+
 if (args.length !== 1) {
   console.log('Please pass in a single argument for the max number');
   process.exit(1);
